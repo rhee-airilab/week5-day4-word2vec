@@ -1,0 +1,30 @@
+2017-10-12 10:26:32.134928: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:26:32.134955: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:26:32.134960: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:26:32.134964: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:26:32.134967: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:26:32.168199: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+2017-10-12 10:26:32.168279: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: digitsbox-3
+2017-10-12 10:26:32.168296: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: digitsbox-3
+2017-10-12 10:26:32.168355: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 381.22.0
+2017-10-12 10:26:32.168417: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:369] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  381.22  Thu May  4 00:55:03 PDT 2017
+GCC version:  gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+"""
+2017-10-12 10:26:32.168464: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 381.22.0
+2017-10-12 10:26:32.168479: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 381.22.0
+loaded index_words:  (188333510,)
+2017-10-12 10:27:08.616026: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:27:08.616048: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:27:08.616054: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:27:08.616057: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:27:08.616061: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-12 10:27:09.045755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti
+major: 6 minor: 1 memoryClockRate (GHz) 1.582
+pciBusID 0000:83:00.0
+Total memory: 10.91GiB
+Free memory: 2.18GiB
+2017-10-12 10:27:09.045803: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-10-12 10:27:09.045814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-10-12 10:27:09.045826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:83:00.0)
+loaded index_words:  (188333510,)

@@ -1,0 +1,13 @@
+.ipynb_checkpoints
+checkpoints
+improved_graph
+processed
+sess-2017-03-31
+*.pyc
+namuwiki_170327.json
+namuwiki.pickle
+text17.npy
+input.txt
+text17.txt
+wordscount.db
+namuwiki_data_processed.tar.xz
